@@ -1,18 +1,18 @@
 # TitleWave
 
-use VCR with less effort
+Use [VCR](https://github.com/vcr/vcr)/[RSpec](https://rspec.info) with typing.
 
 ## So...
 
-in `spec_helper.rb`
+In `spec_helper.rb`:
 
 ```ruby
 require 'titlewave'
 ```
 
-in a spec you wanna VCRify
+In spec you wanna VCRify:
 
-```
+```ruby
 it 'should be fast', :vcr do
 ```
 
