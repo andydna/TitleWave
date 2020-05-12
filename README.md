@@ -1,6 +1,6 @@
 # TitleWave
 
-Use [VCR](https://github.com/vcr/vcr)/[RSpec](https://rspec.info) with typing.
+Use [VCR](https://github.com/vcr/vcr)/[RSpec](https://rspec.info) with less typing.
 
 ## So...
 
