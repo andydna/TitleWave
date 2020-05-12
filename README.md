@@ -14,5 +14,6 @@ In spec you wanna VCRify:
 
 ```ruby
 it 'should be fast', :vcr do
+...
 ```
 
