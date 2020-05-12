@@ -1,6 +1,7 @@
-require "TitleWave/version"
+require 'vcr'
 
-module TitleWave
-  class Error < StandardError; end
-  # Your code goes here...
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/cassettes"
+  config.hook_into :webmock
+  config.configure_rspec_metadata!
 end

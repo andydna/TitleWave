@@ -1,9 +1,8 @@
-RSpec.describe TitleWave do
-  it "has a version number" do
-    expect(TitleWave::VERSION).not_to be nil
-  end
+require 'open-uri'
 
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe TitleWave do
+  specify "VCR just works", :vcr do
+    page = URI.open("https://rubygems.org").read
+    expect(`find . -name '*just*works*'`).to match /yml/
   end
 end
