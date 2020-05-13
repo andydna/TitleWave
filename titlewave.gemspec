@@ -1,4 +1,4 @@
-require_relative 'lib/titlewave/version'
+require_relative 'lib/titlewave/version.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = "titlewave"
